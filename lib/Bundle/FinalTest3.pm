@@ -1,11 +1,12 @@
-package Bundle::FinalTest2;
+package Bundle::FinalTest3;
 
 use 5.010001;
 use strict;
 use warnings;
 
 require Exporter;
-	
+
+our $VERSION = '0.01';
 
 1;
 __END__
@@ -13,20 +14,20 @@ __END__
 
 =head1 NAME
 
-Bundle::FinalTest2 - Perl extension for blah blah blah
+Bundle::FinalTest3 - Perl extension for blah blah blah
 
 =head1 SYNOPSIS
 
-  use Bundle::FinalTest2;
+  use Bundle::FinalTest3;
   blah blah blah
 
 =head1 DESCRIPTION
 
-Stub documentation for Bundle::FinalTest2, created by h2xs. It looks like the
+Stub documentation for Bundle::FinalTest3, created by h2xs. It looks like the
 author of the extension was negligent enough to leave the stub
 unedited.
 
-=head1 CONTENTS
+=head1 CONTENT
 AnyDBM_File
 Attribute::Handlers
 BerkeleyDB
@@ -81,6 +82,7 @@ Probe::Perl
 Scalar::Util::Numeric
 Storable
 String::CRC32
+
 Sys::Hostname::Long
 Term::ReadKey
 Term::ReadLine
@@ -91,6 +93,7 @@ Text::Wrap
 Tie::Cache
 Time::Local
 Time::Piece
+vars
 warnings
 
 
@@ -251,7 +254,6 @@ CPAN::Checksums
 Email::Abstract
 ExtUtils::CBuilder
 File::HomeDir
-XML
 Spreadsheet::WriteExcel::Simple
 
 
@@ -270,9 +272,7 @@ Params::Validate
 
 
 DateTime::Locale
-DateTime::Zone
-
-DataTime
+DateTime::TimeZone
 
 =head2 EXPORT
 

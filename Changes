@@ -1,6 +1,6 @@
-Revision history for Perl extension Bundle::FinalTest2.
+Revision history for Perl extension Bundle::FinalTest3.
 
-0.01  Wed Aug  3 10:32:43 2011
+0.01  Wed Aug  3 11:07:08 2011
 	- original version; created by h2xs 1.23 with options
-		-AX -n Bundle::FinalTest2
+		-AX -n Bundle::FinalTest3
 
