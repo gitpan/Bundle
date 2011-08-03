@@ -2,5 +2,5 @@ Changes
 Makefile.PL
 MANIFEST
 README
-t/Bundle-FinalTest3.t
-lib/Bundle/FinalTest3.pm
+t/Bundle-FinalTest4.t
+lib/Bundle-FinalTest4.pm

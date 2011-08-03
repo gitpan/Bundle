@@ -1,4 +1,4 @@
-package Bundle::FinalTest3;
+package Bundle-FinalTest4;
 
 use 5.010001;
 use strict;
@@ -6,7 +6,11 @@ use warnings;
 
 require Exporter;
 
+our @ISA = qw(Exporter);
 our $VERSION = '0.01';
+
+
+# Preloaded methods go here.
 
 1;
 __END__
@@ -14,20 +18,20 @@ __END__
 
 =head1 NAME
 
-Bundle::FinalTest3 - Perl extension for blah blah blah
+Bundle-FinalTest4 - Perl extension for blah blah blah
 
 =head1 SYNOPSIS
 
-  use Bundle::FinalTest3;
+  use Bundle-FinalTest4;
   blah blah blah
 
 =head1 DESCRIPTION
 
-Stub documentation for Bundle::FinalTest3, created by h2xs. It looks like the
+Stub documentation for Bundle-FinalTest4, created by h2xs. It looks like the
 author of the extension was negligent enough to leave the stub
 unedited.
 
-=head1 CONTENT
+=head1 CONTENTS
 AnyDBM_File
 Attribute::Handlers
 BerkeleyDB
@@ -273,6 +277,7 @@ Params::Validate
 
 DateTime::Locale
 DateTime::TimeZone
+
 
 =head2 EXPORT
 
