@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Bundle-FinalTest2.t
+lib/Bundle/FinalTest2.pm
